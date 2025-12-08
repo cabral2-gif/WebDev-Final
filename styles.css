@@ -121,3 +121,38 @@ section p {
 .about-content a:hover {
     text-decoration: underline;
 }
+
+/* education section */
+.education-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.education-content h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.education-content p {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.education-content h4 {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.education-content ul {
+    list-style-position: inside;
+    color: #555;
+    line-height: 1.8;
+}
+
+.education-content li {
+    margin-bottom: 0.5rem;
+}

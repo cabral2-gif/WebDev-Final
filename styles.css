@@ -194,3 +194,48 @@ section p {
         grid-template-columns: 1fr;
     }
 }
+
+.experience-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+}
+
+.experience-item h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    color: #333;
+}
+
+.experience-company {
+    font-size: 1.1rem;
+    color: #0066cc;
+    margin-bottom: 0.2rem;
+}
+
+.experience-dates {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.experience-item ul {
+    list-style-position: inside;
+    color: #555;
+    line-height: 1.8;
+}
+
+.experience-item li {
+    margin-bottom: 0.5rem;
+}

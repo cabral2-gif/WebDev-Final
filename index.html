@@ -53,15 +53,23 @@
 
     <section id="projects">
         <h2>Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>Personal Finance & Budgeting Assistant (CS 302)</h3>
-                <p>A Python budgeting app that tracks expenses and manages budgets. Built with object-oriented design, inheritance for expense categories, and a Binary Search Tree for data management. Includes operator overloading and PyTest unit testing.</p>
+        <div class="accordion" id="projectsAccordion">
+            <div class="accordion-item">
+                <button class="accordion-header" data-project="0">
+                    Personal Finance & Budgeting Assistant (CS 302)
+                </button>
+                <div class="accordion-body" id="project-0">
+                    <p>A Python budgeting app that tracks expenses and manages budgets. Built with object-oriented design, inheritance for expense categories, and a Binary Search Tree for data management. Includes operator overloading and PyTest unit testing.</p>
+                </div>
             </div>
             
-            <div class="project-card">
-                <h3>Race Event Management System (CS 302)</h3>
-                <p>A C++ application for managing race events and participants. Demonstrates dynamic polymorphism with virtual functions, exception handling, and smart pointers. Uses a Binary Search Tree to efficiently store and retrieve participant data.</p>
+            <div class="accordion-item">
+                <button class="accordion-header" data-project="1">
+                    Race Event Management System (CS 302)
+                </button>
+                <div class="accordion-body" id="project-1">
+                    <p>A C++ application for managing race events and participants. Demonstrates dynamic polymorphism with virtual functions, exception handling, and smart pointers. Uses a Binary Search Tree to efficiently store and retrieve participant data.</p>
+                </div>
             </div>
         </div>
     </section>

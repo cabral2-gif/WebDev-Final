@@ -1,6 +1,27 @@
 // script.js
 // JavaScript for my personal portfolio website
 
+//Accordion functionality
+const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+accordionHeaders.forEach(header => {
+    header.addEventListener('click', () => {
+        const projectId = header.getAttribute('data-project');
+        const body = document.getElementById(`project-${projectId}`);
+        const isOpen = body.classList.contains('open');
+        
+        //Close all other accordions
+        document.querySelectorAll('.accordion-body').forEach(item => {
+            item.classList.remove('open');
+        });
+        
+        //Toggle current accordion
+        if (!isOpen) {
+            body.classList.add('open');
+        }
+    });
+});
+
 //Contact form validation
 const contactForm = document.getElementById('contact-form');
 const nameInput = document.getElementById('name');

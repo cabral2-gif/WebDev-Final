@@ -261,6 +261,52 @@ section p {
     font-weight: 500;
 }
 
+.accordion {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.accordion-header {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.accordion-header:hover {
+    background-color: #f0f0f0;
+}
+
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 1rem;
+}
+
+.accordion-body.open {
+    max-height: 500px;
+    padding: 1rem;
+}
+
+.accordion-body p {
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
 .contact-content {
     max-width: 700px;
     margin: 0 auto;

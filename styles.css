@@ -321,3 +321,114 @@ section p {
 .submit-btn:hover {
     background-color: #0052a3;
 }
+
+/* Typography hierarchy */
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Section spacing */
+section {
+    padding: 3rem 2rem;
+}
+
+/* Mobile refinements */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.95rem;
+    }
+
+    section {
+        padding: 2rem 1.5rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    .main-nav {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .nav-brand h1 {
+        font-size: 1.2rem;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .skills-list li {
+        padding: 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 16px;
+    }
+
+    .submit-btn {
+        padding: 0.65rem 1.5rem;
+        font-size: 0.95rem;
+    }
+
+    .about-content h1 {
+        font-size: 1.6rem;
+    }
+
+    .experience-company {
+        font-size: 1rem;
+    }
+
+    .experience-dates {
+        font-size: 0.9rem;
+    }
+}
